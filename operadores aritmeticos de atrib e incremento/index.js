@@ -61,6 +61,36 @@ contador--; //6
 console.log(contador);
 
 
+//operadores de atribuição
+
+let contador=2;
+contador *=2;
+contador *=2;
+console.log(contador);
+
+
+//NaN=NOT A NUMBER
+
+const number1= 10;
+const number2= '2';
+console.log(number1*number2);
+
+//resultado NaN pq uma string * um número é incompatível, poré se nessa string for um número o js 
+//multiplica mesmo assim, porém se for somando numero e stringnumero ele junta td esse numero ao invez
+//de somar, ele faz uma concatenação
+//tem um jeito de fazer a soma mesmo sendo um numerostring+numero, envolvendo a string no parseInt
+//ex
+const number1= 10;
+const number2= parseInt('2');
+console.log(number1*number2);
+//o ParseInt muda a stringnumero p numero inteiro/parseFloat p numero c casa decimais
+//posso usar  number tbm que é mais facil e faz a msm coisa
+const number1= 10;
+const number2= parseInt('2');
+console.log(number1*number2);
+console.log(typeof number2);
+
+//
 
 
 
