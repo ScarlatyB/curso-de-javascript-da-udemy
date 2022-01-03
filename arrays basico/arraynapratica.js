@@ -20,3 +20,8 @@ const removido =gatos.pop();//remover um ultimo item da lista
 console.log(removido);
 
 console.log(gatos);
+
+//Explicação:
+//O método shift()remove o primeiro elemento de um array e retorna esse elemento.
+
+//O método splice() altera o conteúdo de uma lista, adicionando novos elementos enquanto remove elementos antigos.

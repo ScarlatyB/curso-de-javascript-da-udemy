@@ -16,5 +16,5 @@ function soma (a=3, b=3){
   const resultado= a + b;
   return resultado;
 }
-const resultado= soma();
+const resultado= soma(10, 10);
 console.log(resultado);
